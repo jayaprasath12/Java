@@ -4,11 +4,11 @@ class Team {
     }
 
     void print(String name) {
-        System.out.println("Printing string: " + name);
+        System.out.println("Player name: " + name);
     }
 
     void print(char initial) {
-        System.out.println("Printing double: " + initial);
+        System.out.println("Player initial: " + initial);
     }
 }
 
