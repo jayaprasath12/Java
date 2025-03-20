@@ -11,10 +11,10 @@ class Model1 implements MyInterface{
 }
 public class Static_interface {
     public static void main(String[] args) {
-        MyInterface.statMethod();
+        MyInterface.statMethod();// Output is "This is static"
         
         Model1 obj = new Model1();
-        obj.statMethod();
+        obj.statMethod();// Output error bcz it cant be overriden
     }
     
 }
