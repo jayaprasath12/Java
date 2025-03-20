@@ -1,1 +1,0 @@
-This is for reading texts using FileReader.
